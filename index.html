@@ -100,11 +100,30 @@
 
             </div>
         </div>
-        <div class="about"id="contect">
+        <div class="contact"id="contect">
             <h1>contect me</h1><br>
             <h3>MITHUN M</h3><br>
             <h3>Davangere</h3><br>
             <h2>8296466782</h2><br>
+            <form action="mailto:mithunnmm123@gmail.com">
+                <br>
+                <br>
+                <table border="4">
+                    <tr>
+                        <td><label for="username">name</label></td>
+                        <td><input type="text" name="subject" placeholder="lorem ipsum"></td>
+                </tr>
+                <tr>
+                    <td><label for="phone">phone number</label></td>
+                    <td> <input type="text" name="phone number" placeholder="123456"></td>
+                </tr>
+                <tr>
+                    <td><label for="message">message</label></td>
+                    <td><textarea name="body"></textarea></td>
+                    <td><button type="submit">send</button>
+                </tr>
+                </table>
+            </form>
         </div>
 </body>
 
@@ -118,7 +137,7 @@
          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
     .Home{
-        background-color: rgb(255, 149, 0);
+        background-color: orange;
         height: 100vh;
         background-image:url(mm.png) ;
         background-repeat: no-repeat;
@@ -170,4 +189,22 @@
         padding: 10px 20px;
     }
     
+    .contact table{
+        margin:auto;
+        text-align: left;
+    }
+    .contact button{
+        padding: 10px 30px;
+        background-color: aquamarine;
+        border: none;
+        border-radius: 5px;
+
+    }
+    .contact{ 
+        text-align: center;
+    }
+    .contact button:hover{
+        background-color: rebeccapurple;
+    }
+    @media (max-width:600px)
 </style>
